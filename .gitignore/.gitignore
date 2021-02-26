@@ -1,0 +1,8 @@
+#include <TMRpcm.h>
+#include <SD.h>
+#include <SPI.h>
+
+TMRpcm audio; // make instance variable
+int file_number = 0;
+char filePrefixname[50] = "spy";
+char exten[10] = ".wav";
